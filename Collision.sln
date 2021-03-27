@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collision.Python", "Collision.Python\Collision.Python.csproj", "{C65F7212-A024-4FCC-A1C5-D614A0FB484F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collision.Runner", "Collision.Runner\Collision.Runner.csproj", "{2587EB96-E1D1-4A55-BA06-B17FF0414544}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E79A16F-DE49-4FCA-990B-F7909CF827B6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C65F7212-A024-4FCC-A1C5-D614A0FB484F}.Debug|x64.ActiveCfg = Debug|x64
+		{C65F7212-A024-4FCC-A1C5-D614A0FB484F}.Debug|x64.Build.0 = Debug|x64
+		{2587EB96-E1D1-4A55-BA06-B17FF0414544}.Debug|x64.ActiveCfg = Debug|x64
+		{2587EB96-E1D1-4A55-BA06-B17FF0414544}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+EndGlobal

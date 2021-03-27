@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Configurations>Release;Debug</Configurations>
+    <Platforms>x64</Platforms>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.7" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.6.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.7" />
+    <PackageReference Include="pythonnet_netstandard_py37_win" Version="2.5.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Collision.Python\Collision.Python.csproj" />
+  </ItemGroup>
+    <ItemGroup>
+      <Reference Include="ArcGIS.Core">
+        <HintPath>C:\Program Files\ArcGIS\Pro\bin\ArcGIS.Core.dll</HintPath>
+        <Private>False</Private>
+        <SpecificVersion>False</SpecificVersion>
+      </Reference>
+      <Reference Include="ArcGIS.CoreHost, Version=12.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+        <HintPath>C:\Program Files\ArcGIS\Pro\bin\ArcGIS.CoreHost.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>
